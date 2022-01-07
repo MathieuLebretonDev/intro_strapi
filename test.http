@@ -12,10 +12,11 @@ GET {{ endpoint }}/api/blogs/2
 GET {{ endpoint }}/api/categories
 
 ### Récupération de tous les articles d'une catégorie
-GET {{ endpoint }}/api/categories/2
-// http://localhost:1337/api/categories/2?populate=*
+GET {{ endpoint }}/api/categories/9
+// http://localhost:1337/api/categories/9?populate=*
 
 ### Récupération de nos auteurs
 GET {{ endpoint }}/api/authors/
 
-# Récupération de tous les articles d'un auteur
+### Récupération de tous les articles d'un auteur
+// http://localhost:1337/api/authors/1?populate=*
