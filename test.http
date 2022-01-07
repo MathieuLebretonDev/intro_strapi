@@ -1,0 +1,21 @@
+@endpoint = http://localhost:1337
+
+### Récupération de nos articles
+GET {{ endpoint }}/api/blogs
+
+### Récupération d'un seul article
+GET {{ endpoint }}/api/blogs/1
+###
+GET {{ endpoint }}/api/blogs/2
+
+### Récupération de nos catégories
+GET {{ endpoint }}/api/categories
+
+### Récupération de tous les articles d'une catégorie
+GET {{ endpoint }}/api/categories/2
+// http://localhost:1337/api/categories/2?populate=*
+
+### Récupération de nos auteurs
+GET {{ endpoint }}/api/authors/
+
+# Récupération de tous les articles d'un auteur
